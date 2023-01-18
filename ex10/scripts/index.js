@@ -6,9 +6,9 @@ let episode = {
 
 // Create variables here
 // =====================================
-episodeTitle = episode.title;
-episodeDuration = episode.duration;
-episodeHasBeenWatched = episode.hasBeenWatched;
+const episodeTitle = episode.title;
+const episodeDuration = episode.duration;
+const episodeHasBeenWatched = episode.hasBeenWatched;
 // =====================================
 
 document.querySelector("#episode-info").innerText = `Episode: ${episodeTitle}
